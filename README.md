@@ -12,6 +12,7 @@ Flask Web Application:A user-friendly front-end interface built to take user inp
 
 📁 Project Structure
 
+'''text
 ├── artifacts/               # Saved datasets (train, test, raw) and trained model pickles
 ├── catboost_info/           # CatBoost training logs and metadata
 ├── notebook/                # Jupyter notebooks for EDA and model experimentation
