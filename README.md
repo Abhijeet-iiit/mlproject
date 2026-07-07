@@ -8,20 +8,3 @@ Modular Architecture:Clean separation of concerns with dedicated pipelines for d
 Advanced ML Modeling:Hyperparameter tuning using robust algorithms including **CatBoost**, among other regressors.
 Flask Web Application:A user-friendly front-end interface built to take user inputs and output real-time predictions.
 
----
-
-📁 Project Structure
-
-'''text
-├── artifacts/               # Saved datasets (train, test, raw) and trained model pickles
-├── catboost_info/           # CatBoost training logs and metadata
-├── notebook/                # Jupyter notebooks for EDA and model experimentation
-├── src/                     # Core source code components
-│   ├── components/          # Data Ingestion, Data Transformation, Model Trainer
-│   ├── pipeline/            # Training and Prediction pipelines
-│   ├── exception.py         # Custom exception handling
-│   └── logger.py            # Custom logging setup
-├── templates/               # HTML templates for the Flask web application
-├── app.py                   # Flask entry point
-├── requirements.txt         # Project dependencies
-└── setup.py                 # Package management setup
